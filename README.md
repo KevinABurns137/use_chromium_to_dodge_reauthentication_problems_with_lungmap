@@ -13,3 +13,6 @@ it's a bespoke script to read the example spreadsheet, compose urls then export 
 
 # command line 
 python .\lungmap_sp_state_scraper.py   
+
+# Safety
+make sure you have a .gitignore with sp_storage_state.json in it, it contains your session and should not be shared
