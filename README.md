@@ -8,6 +8,10 @@ python -m venv .spstatevenv
 pip install pathlib playwright    
 playwright install chromium
 
+# what to expect
+script opens chromium at ingest.dev and asks you to login. do everything until you get to a real page
+then go back to command line and it will run its for loop and close
+
 # Reuse
 it's a bespoke script to read the example spreadsheet, compose urls then export them to json. You'll have to do the configuring yourself
 
